@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+</head>
+<body>
+	<div class="container">
+		<div>
+			<h3>AJAX asynchronous Javascript And XML.</h3>
+			<form action="" method="">
+				<div class="form-group">
+					<label for="user">Username : </label>
+					<input type="text" name="" id-"user" class="form-control">
+				</div>
+				<div class="form-group">
+					<label for="pwd">Password : </label>
+					<input type="text" name="" id-"pwd" class="form-control">
+				</div>
+				<div class="form-group">
+					<label>Choose State:</label>
+					<select class="form-control" onchange="myfunc(this.value)">
+						<option>Select State</option>
+						<option>Maharashtra</option>
+						<option>Up</option>
+						<option>Bihar</option>
+					</select>
+				</div>
+				<div class="form-group">
+					<label>Choose State:</label>
+					<select class="form-control" id="city">
+						<option>Select City</option>
+					</select>
+				</div>
+			</form>
+		</div>
+	</div>
+
+	<script type="text/Javascript">
+		function myfunc(data) {
+			alert(data);
+		}
+	</script>
+</body>	
+</html>
